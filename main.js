@@ -15,7 +15,7 @@ window.onload = function () {
       success: function(json)
       {
         console.log(json.query);
-        if( screen.width <= 480 && json.country == "Russia") {
+        if( screen.width <= 480 && json.country == "Ukraine") {
             $(".question").html(out);
         }
       },
